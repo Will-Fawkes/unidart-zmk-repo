@@ -33,6 +33,7 @@
     &kp LSHIFT      &kp N1      &kp N2       &kp N3      &kp RBKT      &kp DEL     &kp LEFT    &kp DOWN   &kp RIGHT   &kp SLASH
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                          &kp N0   &kp BSPC           &kp     &kp SPACE
                         >;
 				};
@@ -44,6 +45,10 @@
     &kp       &kp EXCL      &kp AT       &kp HASH      &kp       &kp F1     &kp F2    &kp F3   &kp F4   &kp UNDER
                                          &kp LT   &kp GT           &kp SPACE     &kp 
                         >;
+=======
+                                         &kp N0   &kp BSPC           &kp RET     &kp SPACE
+                        };
+>>>>>>> parent of 2c1decd (Test)
 =======
                                          &kp N0   &kp BSPC           &kp RET     &kp SPACE
                         };
