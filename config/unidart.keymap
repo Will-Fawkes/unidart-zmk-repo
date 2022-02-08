@@ -11,6 +11,16 @@
 
 &lt { quick_tap_ms = <100>; };
 
+&mt {
+    tapping-term-ms = <400>;
+};
+
+/ {
+    keymap {
+        ...
+    };
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -26,8 +36,8 @@
                         bindings = <
     &kp Q       &kp W        &kp E          &kp R        &kp T          &kp Y      &kp U         &kp I           &kp O       &kp P
     &kp A       &kp S        &kp D          &kp F        &kp G          &kp H      &kp J         &kp K           &kp L       &kp SEMI
-    &kp Z       &kp X        &kp C          &kp V        &kp B          &kp N      &kp M         &kp COMMA       &kp DOT     &kp FSLH
-                                            &kp BKSP     &lt 1 TAB      &lt 1 RET  &kp SPACE
+    &mt LSHIFT Z       &kp X        &kp C          &kp V        &kp B          &kp N      &kp M         &kp COMMA       &kp DOT     &mt LSHIFT	FSLH
+                                            &kp BKSP     &lt 3      &lt 1 RET  &tl 2 SPACE
                         >;
                 };
 
@@ -40,6 +50,7 @@
                         >;
                 };
         };
+
 };
 
 /**
