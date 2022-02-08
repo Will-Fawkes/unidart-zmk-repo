@@ -14,12 +14,6 @@
 &mt { tapping-term-ms = <400>; };
 
 / {
-    keymap {
-        ...
-    };
-};
-
-/ {
         keymap {
                 compatible = "zmk,keymap";
 //                 default_layer {

@@ -11,9 +11,7 @@
 
 &lt { quick_tap_ms = <100>; };
 
-&mt {
-    tapping-term-ms = <400>;
-};
+&mt { tapping-term-ms = <400>; };
 
 / {
     keymap {
