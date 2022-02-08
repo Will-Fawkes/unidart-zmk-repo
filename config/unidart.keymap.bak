@@ -11,7 +11,7 @@
 
 #define DEFAULT 0
 #define RAISE 1
-#define Lower 2
+#define LOWER 2
 
 &lt { quick_tap_ms = <100>; };
 
