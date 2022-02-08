@@ -9,13 +9,14 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#define DEFAULT 0
+#define RAISE 1
+#define Lower 2
+
 &lt { quick_tap_ms = <100>; };
 
 &mt { tapping-term-ms = <400>; };
 
-#define DEFAULT 0
-#define RAISE 1
-#define Lower 2
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -24,7 +25,7 @@
     &kp Q       &kp W        &kp E          &kp R        &kp T          &kp Y      &kp U         &kp I           &kp O       &kp P
     &kp A       &kp S        &kp D          &kp F        &kp G          &kp H      &kp J         &kp K           &kp L       &kp SEMI
     &mt LSHIFT Z       &kp X        &kp C          &kp V        &kp B          &kp N      &kp M         &kp COMMA       &kp DOT     &mt LSHIFT	FSLH
-                                            &kp BKSP     &kp LCTRL      &lt raise RET  &lt lower SPACE
+                                            &kp BKSP     &kp LCTRL      &lt RAISE RET  &lt LOWER SPACE
                         >;
                 };
 
