@@ -13,6 +13,7 @@
 
 &mt { tapping-term-ms = <400>; };
 
+#define
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -27,12 +28,35 @@
 
                 raise {
                         bindings = <
-    &kp ESC     &kp N7      &kp N8       &kp N9      &kp BSLH          &kp PRSCRN  &kp SLCK    &kp HOME   &kp END     &kp EQUAL
+    &kp ESC     &kp N7      &kp N8       &kp N9      &kp BSLH          &kp PSCRN  &kp SLCK    &kp HOME   &kp END     &kp EQUAL
     &kp CAPS    &kp N4      &kp N5       &kp N6      &kp LBKT          &kp INS     &kp PG_UP   &kp UP     &kp PG_DN   &kp SQT
     &kp LSHIFT      &kp N1      &kp N2       &kp N3      &kp RBKT      &kp DEL     &kp LEFT    &kp DOWN   &kp RIGHT   &kp SLASH
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
                                          &kp N0   &kp BSPC           &kp     &kp SPACE
                         >;
-   		
+				};
+				
+				lower {
+                        bindings = <
+    &kp ESC     &kp STAR      &kp LPAR       &kp RPAR      &kp	&kp F9  &kp F10    &kp F11   &kp F12     &kp
+    &kp TILDE    &kp DLLR      &kp PERCENT       &kp CARET      &kp F5     &kp F6     &kp F7   &kp F8     &kp PG_DN   &kp MINUS
+    &kp       &kp EXCL      &kp AT       &kp HASH      &kp       &kp F1     &kp F2    &kp F3   &kp F4   &kp UNDER
+                                         &kp LT   &kp GT           &kp SPACE     &kp 
+                        >;
+=======
+                                         &kp N0   &kp BSPC           &kp RET     &kp SPACE
+                        };
+>>>>>>> parent of 2c1decd (Test)
+=======
+                                         &kp N0   &kp BSPC           &kp RET     &kp SPACE
+                        };
+>>>>>>> parent of 2c1decd (Test)
+=======
+                                         &kp N0   &kp BSPC           &kp RET     &kp SPACE
+                        };
+>>>>>>> parent of 2c1decd (Test)
                 };
         };    
 };
